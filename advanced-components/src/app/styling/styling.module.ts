@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { InlineStyleComponent } from './inline-style/inline-style.component';
 import { ExternalStyleComponent } from './external-style/external-style.component';
+import {NativeEncapsulationComponent} from './native-encapsulation/native-encapsulation.component';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { ExternalStyleComponent } from './external-style/external-style.componen
   ],
   declarations: [
     InlineStyleComponent,
-    ExternalStyleComponent
+    ExternalStyleComponent,
+    NativeEncapsulationComponent
   ]
 })
 
