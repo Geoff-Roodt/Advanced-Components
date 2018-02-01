@@ -10,3 +10,7 @@ import {Component, OnInit} from '@angular/core';
     <div class="highlight">This uses component <code>styleUrls</code> property</div>
     `
 })
+
+export class ExternalStyleComponent{
+  
+}
