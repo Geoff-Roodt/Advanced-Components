@@ -2,7 +2,7 @@ import {Component} from '@angular/core';
 
 @Component({
   selector: 'inline-style',
-  styles[`
+  styles:[`
     .highlight {
       border: 2px solid red;
       background-color: yellow;
@@ -18,5 +18,5 @@ import {Component} from '@angular/core';
   })
 
   export class InlineStyleComponent{
-    
+
   }
