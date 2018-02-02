@@ -4,6 +4,7 @@ import {HttpModule} from '@angular/http';
 import {FormsModule} from '@angular/forms';
 
 import {StylingModule} from './styling/styling.module';
+import {HostModule} from './host/host.module';
 
 
 import { AppComponent } from './app.component';
