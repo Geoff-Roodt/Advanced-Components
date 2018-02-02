@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { PopupDirective } from './popup-demo/popup.directive';
 import {PopupComponent} from './popup-demo/popup.component';
+import {ProfileCardComponent} from './popup-demo/profile-card.component';
 
 
 
@@ -12,7 +13,8 @@ import {PopupComponent} from './popup-demo/popup.component';
   ],
   declarations: [
     PopupDirective,
-    PopupComponent
+    PopupComponent,
+    ProfileCardComponent
   ],
   exports: [
   ]
