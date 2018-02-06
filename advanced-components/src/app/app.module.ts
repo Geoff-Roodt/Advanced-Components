@@ -5,6 +5,7 @@ import {FormsModule} from '@angular/forms';
 
 import {StylingModule} from './styling/styling.module';
 import {HostModule} from './host/host.module';
+import {TabModule} from './tabs/tab.module';
 
 
 import { AppComponent } from './app.component';
@@ -18,7 +19,8 @@ import { AppComponent } from './app.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    StylingModule
+    StylingModule,
+    TabModule
   ],
   providers: [],
   bootstrap: [AppComponent]
