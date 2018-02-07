@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { PopupDirective } from './popup-demo/popup.directive';
 import {PopupComponent} from './popup-demo/popup.component';
 import {ProfileCardComponent} from './popup-demo/profile-card.component';
+import { PopupDemoComponent } from './popup-demo/popup-demo.component';
 
 /*
   NEEDED FOR STEPS DEMO ONLY
@@ -29,11 +30,13 @@ import { PopupDemoComponent4 } from './popup-demo/steps/host-4';
     PopupDemoComponent4Module
   ],
   declarations: [
+    PopupDemoComponent,
     PopupDirective,
     PopupComponent,
     ProfileCardComponent
   ],
   exports: [
+    PopupDemoComponent,
     PopupComponent,
     PopupDemoComponent1,
     PopupDemoComponent2,

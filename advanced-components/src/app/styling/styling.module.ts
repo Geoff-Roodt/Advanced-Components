@@ -5,6 +5,7 @@ import { InlineStyleComponent } from './inline-style/inline-style.component';
 import { ExternalStyleComponent } from './external-style/external-style.component';
 import {NativeEncapsulationComponent} from './native-encapsulation/native-encapsulation.component';
 import {NoEncapsulationComponent} from './no-encapsulation/no-encapsulation.component';
+import { StylingDemoComponent } from './styling-demo/styling-demo.component';
 
 
 @NgModule({
@@ -12,6 +13,7 @@ import {NoEncapsulationComponent} from './no-encapsulation/no-encapsulation.comp
     CommonModule
   ],
   declarations: [
+    StylingDemoComponent,
     InlineStyleComponent,
     ExternalStyleComponent,
     NativeEncapsulationComponent,
